@@ -22,3 +22,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/test', [App\Http\Controllers\TestController::class, 'index']);
+
+Route::get('/blog/posts', [App\Http\Controllers\BlogPostController::class, 'index']);

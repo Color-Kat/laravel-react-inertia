@@ -1,9 +1,9 @@
 "use strict";
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_home_index_tsx"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_Blog_Posts_tsx"],{
 
-/***/ "./resources/js/Pages/home/index.tsx":
+/***/ "./resources/js/Pages/Blog/Posts.tsx":
 /*!*******************************************!*\
-  !*** ./resources/js/Pages/home/index.tsx ***!
+  !*** ./resources/js/Pages/Blog/Posts.tsx ***!
   \*******************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
@@ -21,12 +21,12 @@ Object.defineProperty(exports, "__esModule", ({
 
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var Home = function Home(_ref) {
-  var user = _ref.user;
-  return react_1["default"].createElement("div", null, user.id);
+var Posts = function Posts(_ref) {
+  var title = _ref.title;
+  return react_1["default"].createElement("div", null, title);
 };
 
-exports["default"] = Home;
+exports["default"] = Posts;
 
 /***/ })
 

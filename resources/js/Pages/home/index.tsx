@@ -1,9 +1,9 @@
 import React from "react";
 
-const Home: React.FC = () => {
+const Home: React.FC<any> = ({user}) => {
     return (
         <div>
-            sdofmsdg
+            {user.id}
         </div>
     );
 }
